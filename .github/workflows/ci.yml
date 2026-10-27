@@ -14,5 +14,5 @@ jobs:
           node-version: '22'
       - name: Check team settings
         run: npm run check:settings
-      - name: Run unit tests
-        run: npm run test:ci
+      - name: Run tests
+        run: npm test
